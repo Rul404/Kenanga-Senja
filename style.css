@@ -45,7 +45,7 @@ marquee {
 }
 
 .navbar .navbar-nav {
-    margin-right: 150px;
+    margin-right: 10px;
 }
 
 .navbar .navbar-nav a {
@@ -130,11 +130,15 @@ marquee {
     margin-top: 10px;
     border: none;
     background: #c47f24;
-    color: #fff;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
     animation: animation_name 1s infinite;
+}
+
+#home .bungkus button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 @-webkit-keyframes animation_name {
